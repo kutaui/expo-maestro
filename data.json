@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Software Engineer",
+        "company": "Company A",
+        "salary": 100000,
+        "applied": false
+    },
+    {
+        "id": "2",
+        "title": "Product Manager",
+        "company": "Company B",
+        "salary": 120000,
+        "applied": true
+    },
+    {
+        "id": "3",
+        "title": "UX Designer",
+        "company": "Company C",
+        "salary": 90000,
+        "applied": false
+    },
+    {
+        "id": "4",
+        "title": "Data Scientist",
+        "company": "Company D",
+        "salary": 110000,
+        "applied": false
+    }
+]

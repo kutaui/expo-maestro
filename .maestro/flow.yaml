@@ -1,0 +1,15 @@
+appId: com.kutaui.maestrotutorial
+---
+- launchApp
+- tapOn: 'Email'
+- inputText: 'test@gmail.com'
+- tapOn: 'Password'
+- inputText: 'password'
+- tapOn:
+    text: 'Login Button'
+- assertVisible:
+    text: 'Job Listings'
+- tapOn:
+    text: 'Software Engineer'
+- assertVisible:
+    text: 'Job Detail'

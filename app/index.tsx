@@ -1,4 +1,12 @@
-import { Text, View, TextInput, Button, Alert, StyleSheet } from 'react-native'
+import {
+	Text,
+	View,
+	TextInput,
+	Button,
+	Alert,
+	StyleSheet,
+	TouchableOpacity,
+} from 'react-native'
 import { useState } from 'react'
 import { useRouter } from 'expo-router'
 
@@ -34,7 +42,11 @@ export default function Index() {
 				secureTextEntry
 				style={styles.input}
 			/>
-			<Button title="Login" onPress={handleLogin} color="#007BFF" />
+			<Button
+				title="Login"
+				onPress={handleLogin}
+				accessibilityLabel="Login Button"
+			/>
 		</View>
 	)
 }

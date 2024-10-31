@@ -27,7 +27,11 @@ const JobCard = ({
 	}
 
 	return (
-		<TouchableOpacity onPress={handlePress} style={styles.card}>
+		<TouchableOpacity
+			onPress={handlePress}
+			style={styles.card}
+			accessibilityLabel={jobName}
+		>
 			{applied && (
 				<View style={styles.appliedIndicator}>
 					<Ionicons name="checkmark-circle" size={24} color="green" />

@@ -1,3 +1,7 @@
+# Checkout the [Tutorial Video](https://youtu.be/QGOAQVSxpDE)
+
+# Checkout the [Blog Post](https://kutay.boo/blog/maestro-expo)
+
 # Helpful Commands
 
 ```bash
